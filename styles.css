@@ -1,26 +1,26 @@
 /* styles.css */
 header {
-    background-color: #c2a6a000; /* Set background to white */ /* Replace with your image file */
-    background-size: cover; /* Ensures the image covers the entire header */
-    background-position: center; /* Centers the background image */
-    color: #fff2f2; /* Sets the font color to white */
-    text-align: center; /* Centers the text horizontally */
-    padding: 40px; /* Adds padding around the text */
+    background-color: #c2a6a000; 
+    background-size: cover; 
+    background-position: center; 
+    color: #fff2f2; 
+    text-align: center; 
+    padding: 40px; 
     font-family: 'Times New Roman', Times, serif;
 }
 
 header h1 {
-    font-size: 3em; /* Adjust the size of the title */
-    margin: 0; /* Removes default margin */
+    font-size: 3em; 
+    margin: 0;
 }
 
 header p {
-    font-size: 1.2em; /* Adjust the size of the paragraph */
-    margin-top: 10px; /* Adds space between the title and the paragraph */
+    font-size: 1.2em; 
+    margin-top: 10px; 
 }
 
 :root {
-    --bs-primary: #c2a6a000; /* Custom Bootstrap primary color */
+    --bs-primary: #c2a6a000; 
     --bs-secondary: #33ff57;
     --bs-body-bg: #000000;
 }
@@ -48,7 +48,7 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link .navbar-brand {
-    color: #fffafa !important; /* Custom link color */
+    color: #fffafa !important; 
     font-size: 18px;
     transition: color 0.3s;
     font-family: 'Times New Roman', Times, serif;
@@ -93,9 +93,9 @@ body {
     width: 100%;
     border-radius: 50px;
     height: auto;
-    width: 300px;  /* Set all images to be 300px wide */
-    height: 200px; /* Set all images to be 200px tall */
-    object-fit: cover;  /* Ensures the image maintains its aspect ratio while filling the set width and height */
+    width: 300px;  
+    height: 200px; 
+    object-fit: cover;  
 }
 
 .btn-custom {
@@ -149,32 +149,32 @@ body {
 
 .section-info .container {
     display: flex;
-    justify-content: space-between; /* Controls horizontal alignment */
-    align-items: center; /* Centers items vertically */
-    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap; 
     
 }
 
-/* For mobile devices (screen width less than 768px) */
+
 @media (max-width: 768px) {
     .section-info .container {
-        flex-direction: column; /* Stacks items vertically on smaller screens */
-        text-align: center; /* Centers the content */
+        flex-direction: column; 
+        text-align: center; 
     }
 
     .room-link {
-        margin-bottom: 10px; /* Adds space between links */
+        margin-bottom: 10px; 
     }
 }
 
-/* For extra small devices (screen width less than 480px) */
+
 @media (max-width: 480px) {
     .section-info .container {
-        flex-direction: column; /* Stacks items vertically */
+        flex-direction: column; 
     }
 
     .room-link {
-        font-size: 14px; /* Adjusts font size on very small screens */
+        font-size: 14px; 
     }
 }
 
